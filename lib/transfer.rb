@@ -14,10 +14,5 @@ class Transfer
   end
 
   def execute_transaction
-    if @sender.balance - @sender.amount
-      "rejected"
-    else
-      "successful"
-    end
   end
 end
